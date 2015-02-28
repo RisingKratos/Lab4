@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicCollection", "Lab4Exercise1\BasicCollection.csproj", "{FA2CB3E4-7825-42DC-B4F1-7484649C4498}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestForBasicCollection", "TestForLab4Exercise1\TestForBasicCollection.csproj", "{45971C0F-2B2C-49DF-99F2-EDD6C5627C17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequentialCollections", "Lab4Exercise2\SequentialCollections.csproj", "{71E6FB17-60F5-4F73-9D37-2461433A67E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestForSequentialCollections", "TestForSequentialCollections\TestForSequentialCollections.csproj", "{F338D031-6721-4294-AA17-CEB8306779D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryCollections", "DictionaryCollections\DictionaryCollections.csproj", "{4A8533EC-6EE2-4E33-BDAB-B0535C9F8A46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestForDictionaryCollections", "TestForDictionaryCollections\TestForDictionaryCollections.csproj", "{DFE10DA6-F6E9-4527-AF1C-E1317D9EFB9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basic Collection", "Basic Collection", "{6D5E63AC-4D2F-4925-AFF8-13859B1626BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dictionary Collections", "Dictionary Collections", "{D2B4DC4F-6220-4D97-A6F0-234764430EC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sequential Collections", "Sequential Collections", "{35994406-DD98-459C-8810-EB89DBB4A330}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lookup Collections", "Lookup Collections", "{0662FC54-D561-4DB0-A54D-73DF01D00BE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LookupCollections", "LookupCollections\LookupCollections.csproj", "{77DBC50D-FB3B-4BD1-B0C7-30688ED80FB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericCollections", "GenericCollections\GenericCollections.csproj", "{822470EE-A3A5-4287-A005-0DD15B4FDEF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Generic Collections", "Generic Collections", "{CC44915F-5F84-4AD9-B050-3B2DCE4B6E5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA2CB3E4-7825-42DC-B4F1-7484649C4498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA2CB3E4-7825-42DC-B4F1-7484649C4498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA2CB3E4-7825-42DC-B4F1-7484649C4498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA2CB3E4-7825-42DC-B4F1-7484649C4498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45971C0F-2B2C-49DF-99F2-EDD6C5627C17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45971C0F-2B2C-49DF-99F2-EDD6C5627C17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45971C0F-2B2C-49DF-99F2-EDD6C5627C17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45971C0F-2B2C-49DF-99F2-EDD6C5627C17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71E6FB17-60F5-4F73-9D37-2461433A67E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71E6FB17-60F5-4F73-9D37-2461433A67E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71E6FB17-60F5-4F73-9D37-2461433A67E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71E6FB17-60F5-4F73-9D37-2461433A67E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F338D031-6721-4294-AA17-CEB8306779D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F338D031-6721-4294-AA17-CEB8306779D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F338D031-6721-4294-AA17-CEB8306779D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F338D031-6721-4294-AA17-CEB8306779D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A8533EC-6EE2-4E33-BDAB-B0535C9F8A46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A8533EC-6EE2-4E33-BDAB-B0535C9F8A46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A8533EC-6EE2-4E33-BDAB-B0535C9F8A46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A8533EC-6EE2-4E33-BDAB-B0535C9F8A46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFE10DA6-F6E9-4527-AF1C-E1317D9EFB9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE10DA6-F6E9-4527-AF1C-E1317D9EFB9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE10DA6-F6E9-4527-AF1C-E1317D9EFB9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE10DA6-F6E9-4527-AF1C-E1317D9EFB9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77DBC50D-FB3B-4BD1-B0C7-30688ED80FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77DBC50D-FB3B-4BD1-B0C7-30688ED80FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77DBC50D-FB3B-4BD1-B0C7-30688ED80FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77DBC50D-FB3B-4BD1-B0C7-30688ED80FB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{822470EE-A3A5-4287-A005-0DD15B4FDEF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{822470EE-A3A5-4287-A005-0DD15B4FDEF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{822470EE-A3A5-4287-A005-0DD15B4FDEF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{822470EE-A3A5-4287-A005-0DD15B4FDEF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FA2CB3E4-7825-42DC-B4F1-7484649C4498} = {6D5E63AC-4D2F-4925-AFF8-13859B1626BC}
+		{45971C0F-2B2C-49DF-99F2-EDD6C5627C17} = {6D5E63AC-4D2F-4925-AFF8-13859B1626BC}
+		{71E6FB17-60F5-4F73-9D37-2461433A67E0} = {35994406-DD98-459C-8810-EB89DBB4A330}
+		{F338D031-6721-4294-AA17-CEB8306779D6} = {35994406-DD98-459C-8810-EB89DBB4A330}
+		{4A8533EC-6EE2-4E33-BDAB-B0535C9F8A46} = {D2B4DC4F-6220-4D97-A6F0-234764430EC2}
+		{DFE10DA6-F6E9-4527-AF1C-E1317D9EFB9C} = {D2B4DC4F-6220-4D97-A6F0-234764430EC2}
+		{77DBC50D-FB3B-4BD1-B0C7-30688ED80FB2} = {0662FC54-D561-4DB0-A54D-73DF01D00BE9}
+		{822470EE-A3A5-4287-A005-0DD15B4FDEF4} = {CC44915F-5F84-4AD9-B050-3B2DCE4B6E5E}
+	EndGlobalSection
+EndGlobal
